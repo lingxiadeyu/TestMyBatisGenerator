@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: mytest
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dbgirl?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+    username: root
+    password: baoxian_admin
+
+mybatis:
+  type-aliases-package: com.example.testmybatisgenerator.entiy
+  mapper-locations:
+    - mapper/*
+
+#jdbc.driverLocation=D:\\apache-maven-3.5.3\\localRepository_tx\\mysql\\mysql-connector-java\\8.0.13\\mysql-connector-java-8.0.13.jar
